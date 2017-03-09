@@ -36,7 +36,7 @@ int main(int argc, const char * argv[]) {
         
         double testF =[Mathematics getWanSiSheWuRu:(float)1234653.23];
 
-        NSLog(@"testf--%f",testF);
+        NSLog(@"testfMYFEII--%f",testF);
         
     }
     return 0;
