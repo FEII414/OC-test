@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1BA22FD1E67FF040071AC5E /* Mathematics.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BA22FC1E67FF040071AC5E /* Mathematics.m */; };
 		A1CB31E11E5D648F00571044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CB31E01E5D648F00571044 /* main.m */; };
+		A1E427671E61AD6A008FBF2E /* DateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E427661E61AD6A008FBF2E /* DateTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A1BA22FB1E67FF040071AC5E /* Mathematics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mathematics.h; sourceTree = "<group>"; };
+		A1BA22FC1E67FF040071AC5E /* Mathematics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mathematics.m; sourceTree = "<group>"; };
 		A1CB31DD1E5D648F00571044 /* OC-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC-test"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CB31E01E5D648F00571044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1E427651E61AD6A008FBF2E /* DateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTool.h; sourceTree = "<group>"; };
+		A1E427661E61AD6A008FBF2E /* DateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				A1CB31E01E5D648F00571044 /* main.m */,
+				A1E427651E61AD6A008FBF2E /* DateTool.h */,
+				A1E427661E61AD6A008FBF2E /* DateTool.m */,
+				A1BA22FB1E67FF040071AC5E /* Mathematics.h */,
+				A1BA22FC1E67FF040071AC5E /* Mathematics.m */,
 			);
 			path = "OC-test";
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1CB31E11E5D648F00571044 /* main.m in Sources */,
+				A1E427671E61AD6A008FBF2E /* DateTool.m in Sources */,
+				A1BA22FD1E67FF040071AC5E /* Mathematics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +258,7 @@
 				A1CB31E61E5D648F00571044 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
