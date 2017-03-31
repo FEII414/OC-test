@@ -7,9 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CalculateAdd.h"
 
 @interface Mathematics : NSObject
 
 +(double)getWanSiSheWuRu:(double)number;
+
++(CalculateMath*)calculateAdd;
 
 @end

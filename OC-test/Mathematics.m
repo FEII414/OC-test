@@ -20,4 +20,10 @@
     return number;
 }
 
++(CalculateMath*)calculateAdd{
+    
+    return [[CalculateAdd alloc]init];
+    
+}
+
 @end

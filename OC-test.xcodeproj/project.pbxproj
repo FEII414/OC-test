@@ -10,6 +10,9 @@
 		A1BA22FD1E67FF040071AC5E /* Mathematics.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BA22FC1E67FF040071AC5E /* Mathematics.m */; };
 		A1CB31E11E5D648F00571044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CB31E01E5D648F00571044 /* main.m */; };
 		A1E427671E61AD6A008FBF2E /* DateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E427661E61AD6A008FBF2E /* DateTool.m */; };
+		A1E7A4F51E83638400194C94 /* CalculateMath.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7A4F41E83638400194C94 /* CalculateMath.m */; };
+		A1E7A4F81E83677F00194C94 /* CalculateAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7A4F71E83677F00194C94 /* CalculateAdd.m */; };
+		A1E7A4FB1E836F7100194C94 /* SingleTonPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7A4FA1E836F7100194C94 /* SingleTonPattern.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,12 @@
 		A1CB31E01E5D648F00571044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1E427651E61AD6A008FBF2E /* DateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTool.h; sourceTree = "<group>"; };
 		A1E427661E61AD6A008FBF2E /* DateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTool.m; sourceTree = "<group>"; };
+		A1E7A4F31E83638400194C94 /* CalculateMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateMath.h; sourceTree = "<group>"; };
+		A1E7A4F41E83638400194C94 /* CalculateMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateMath.m; sourceTree = "<group>"; };
+		A1E7A4F61E83677F00194C94 /* CalculateAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateAdd.h; sourceTree = "<group>"; };
+		A1E7A4F71E83677F00194C94 /* CalculateAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateAdd.m; sourceTree = "<group>"; };
+		A1E7A4F91E836F7100194C94 /* SingleTonPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleTonPattern.h; sourceTree = "<group>"; };
+		A1E7A4FA1E836F7100194C94 /* SingleTonPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleTonPattern.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +77,12 @@
 				A1E427661E61AD6A008FBF2E /* DateTool.m */,
 				A1BA22FB1E67FF040071AC5E /* Mathematics.h */,
 				A1BA22FC1E67FF040071AC5E /* Mathematics.m */,
+				A1E7A4F31E83638400194C94 /* CalculateMath.h */,
+				A1E7A4F41E83638400194C94 /* CalculateMath.m */,
+				A1E7A4F61E83677F00194C94 /* CalculateAdd.h */,
+				A1E7A4F71E83677F00194C94 /* CalculateAdd.m */,
+				A1E7A4F91E836F7100194C94 /* SingleTonPattern.h */,
+				A1E7A4FA1E836F7100194C94 /* SingleTonPattern.m */,
 			);
 			path = "OC-test";
 			sourceTree = "<group>";
@@ -129,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E7A4FB1E836F7100194C94 /* SingleTonPattern.m in Sources */,
 				A1CB31E11E5D648F00571044 /* main.m in Sources */,
 				A1E427671E61AD6A008FBF2E /* DateTool.m in Sources */,
+				A1E7A4F51E83638400194C94 /* CalculateMath.m in Sources */,
+				A1E7A4F81E83677F00194C94 /* CalculateAdd.m in Sources */,
 				A1BA22FD1E67FF040071AC5E /* Mathematics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

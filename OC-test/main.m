@@ -38,6 +38,21 @@ int main(int argc, const char * argv[]) {
 
         NSLog(@"testfMYFEII--%f",testF);
         
+        //工厂方法 凡是出现了大量的产品需要创建，并且具有共同的接口时，可以通过工厂方法模式进行创建
+        CalculateMath *calculate = [Mathematics calculateAdd];
+        float addF = [calculate equalsMath:12 with:13];
+        NSLog(@"testCalculate--%f",addF);
+        
+        NSMutableArray *arrayHEE = [[NSMutableArray alloc]init];
+        [arrayHEE addObject:@"hee"];
+        
+        NSMutableArray *arrayCopy = [arrayHEE mutableCopy];
+        [arrayCopy addObject:@"helolo"];
+        
+        NSArray *arrayHH = @[@"arr"];
+        NSArray *arrayHHCopy = [arrayHH copy];
+        arrayHH = nil;
+        
     }
     return 0;
 }
